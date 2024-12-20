@@ -1,0 +1,118 @@
+
+.navbar {
+    background-color: #1a0000; /* Dark background color */
+}
+.navbar-brand img {
+    width: 150px; /* Adjust the logo size */
+}
+.nav-link {
+    color: #ffffff !important; /* White text color */
+    font-weight: 500;
+}
+.nav-link:hover {
+    color: #ff4444 !important; /* Highlight color on hover */
+}
+
+/* Video Background */
+.video-background {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#bgVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+}
+
+.content {
+    z-index: 1; 
+    padding-top: 3%;
+}
+
+
+.logo {
+    width: 100%;
+    height: 200px;
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.countdown-box {
+    background-color: #fd4d4d1a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 130px;
+}
+.shadow-border {
+    box-shadow: inset 0 0 .3em 0 hsl(0, 91%, 58%), 0 0 .3em 0 hsl(0, 91%, 58%);
+    border:  hsl(0, 91%, 58%) .125em solid;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+ 
+.countdown-box span {
+    display: block;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+
+.countdown-box p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: white;
+    font-weight: 500;
+}
+
+.event-details {
+    margin: 20px 0;
+}
+
+.event-details p {
+    margin: 5px 0;
+}
+
+.btn-custom {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px red;
+}
+
+.btn-custom:hover {
+    background-color: white;
+    color: red;
+    box-shadow: 0 0 20px red;
+}

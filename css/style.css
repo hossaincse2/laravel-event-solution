@@ -1,4 +1,7 @@
-
+body{
+    background-color: #000000;
+    font: 18px Gilroy, sans-serif;
+}
 .navbar {
     background-color: #1a0000; /* Dark background color */
 }
@@ -15,13 +18,13 @@
 
 /* Video Background */
 .video-background {
-    position: relative;
-    height: 100vh;
+    position: relative; 
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
+    padding-bottom: 25px;
 }
 
 #bgVideo {
@@ -113,6 +116,48 @@
 
 .btn-custom:hover {
     background-color: white;
-    color: red;
+    color: red; 
     box-shadow: 0 0 20px red;
+}
+footer{
+    height: 350px;
+}
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  .footer-link:hover {
+    color: #ddd;
+  }
+  .social-icon {
+    width: 20px; /* Adjust size as needed */
+    height: 20px;
+    margin-right: 5px;
+  }
+
+   footer h5 {
+    color: #fd4d4d;
+    font-size: var(--text-size);
+}
+footer ul li {
+    line-height: 39px;
+}
+footer p {
+    color: #fff;
+    line-height: 30px;
+}
+.heading-text {
+    display: inline-block;
+    background: -webkit-linear-gradient(0deg, #389fff 0%, #3b73f3 20%, #4052f1 40%, #8b3cf3 60%, #ba2b2b 80%, #ab1313 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.people__card {
+    background: linear-gradient(135deg, #a51212, #7a1f1f, #621818, #2b1212, #140b0b, #120c0c, #110e0e, #0f0f0f);
+}
+
+
+h3, h5, p, h4, span,svg, .h5{
+    color: #fff;
 }

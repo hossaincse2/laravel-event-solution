@@ -161,3 +161,7 @@ footer p {
 h3, h5, p, h4, span,svg, .h5{
     color: #fff;
 }
+.text-primary_custom {
+    --tw-text-opacity: 1;
+    color: rgb(253 77 77 / 1);
+}
